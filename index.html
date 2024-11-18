@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega N3</title>
+
+    <!--bootstrap-->
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+      <!--css-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--script de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img width="30" height="30" src="imagenes/logo-navBar-8.png" alt="logo-navBar-8">  Valentina Echaniz [Valenchu]</a>
+
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="menu">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  Links a redes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.instagram.com/valenchuenlab__/?utm_source=ig_web_button_share_sheet">Instagram</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.behance.net/valentiechaniz">Behance</a></li>
+                </ul>
+              </li>
+          
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+      
+    <div class="modal fade" id="miModal" tabindex="-1" >
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+              <div class="modal-header"> <h1 class="modal-title">Formulario de contacto</h1></div>
+      
+            <div class="modal-body">
+
+            <form action="codigo.php" method="post" class="needs-validation" novalidate>
+             <div>
+            <label for="Nombre y apellido" class="form-label">Nombre y apellido</label>
+             <input type="text" name="Nombre y apellido" id="Nombre y apellido" required class="form-control">
+              <div class="invalid-feedback">Completá este campo</div>
+
+              <label for="usuario" class="form-label">Usuario</label>
+             <input type="text" name="usuario" id="usuario" required class="form-control">
+              <div class="invalid-feedback">Crea un nuevo usuario</div>
+            </div>
+
+              
+        
+              <label for="password" class="form-label">Contraseña</label>
+            <input type="password" name="password" required id="password" class="form-control required">
+
+            <button class="btn btn-warning mt-3">Enviar</button>
+
+
+       </form>
+
+            </div> 
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+            </div>
+           
+          </div> 
+        </div> 
+      </div> <!--cierra modal-->
+
+<header class="container-fluid">
+
+<h1 class="text-center">Algo así como un portfolio</h1>
+
+</header>
+
+<main class="container-lg mt-5">
+  
+<div class="row bg-light justify-content-between">
+
+    <div class=" col-md-6 col-lg-3 col-sm-6 order-lg-1 order-3 ">
+        
+      <h2>2007</h2>
+        <p>Desde muy chica, mis juguetes favoritos siempre fueron los lapices. Pero inevitablemente, como niña en los 2000, mi atracción principal pasó a ser la computadora. Pero lejos estaba yo de descargarme juegos o mirar videos en youtube, me pasaba horas y horas en paint. Tengo miles de archivos con nombres como "hbdsjbfhsbh"(porque de más está decir que no sabía escribir, pero con paint me las ingeniaba).  </p>
+
+        <img src="imagenes/dibujo3.jpg" class="img-fluid" alt="dibujo3">
+
+    </div>
+  
+
+    <div class=" col md-6 col-lg-3 order-2">
+        <h2>Obra de arte</h2>
+        <p>Fantastico retrato de lo que yo pienso, es mi perro, aunque las aletas y la cabeza roja me hacen dudar un poco. No hay dudas que ejercitar la creatividad siempre fue parte de mi, y aunque lejos estaba de saber que iba a estudiar diseño, creo que mis primeros pasos arrancaron en el paint de la compu de escritorio que estaba en mi casa.</p>
+
+        <img src="imagenes/dibujo1.JPG" class="img-fluid" alt="dibujo1">
+    </div>
+
+    <div class="col-lg-5 order-lg-3 order-1 ">
+        <h2>Mi [mini] yo diseñadora</h2>
+        <p>Soy Valentina, tengo 20 años, soy oriunda del sur del país y estoy estudiando diseño en Buenos Aires. Esta ilustración fue mi primer trabajo como diseñadora (trabajo no remunerado, a mis papas seguramente, y sin que nadie me lo pidiera). Me emociona encontrar en archivos viejos, la forma en la que mi yo de seis o siete años, desarrollaba su creatividad. Te invito a conocer un poco más acerca de mi diseñadora en formación. </p>
+        
+        <img src="imagenes/dibujo2.jpg" class= "img-fluid" alt="dibujo2">
+        
+    </div>
+    
+
+</div>
+
+<h3 class="text-center">Efectivamente, diseñadora en formación</h3>
+<img src="imagenes/diseño1.jpg" class="img-fluid" alt="diseño1">
+</main>
+
+
+
+
+<footer class="container-fluid text-center mt-5">
+
+ <section>
+  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#miModal"> Contactame!</button></section>
+  
+  <section>
+<p>Estoy cursando mi tercer año de la Licenciatura en Diseño en la Universidad Torcuato Di Tella. La misma tiene un enfoque integral, donde aprendemos conceptos de Diseño Gráfico, Industrial e Inmersivo para generar propuestas innovadoras y complementarias en cuanto a las tres áreas. Me entusiasma mucho aprender y espero seguir desarrollándome como diseñadora y creativa por muchos años más. </p></section>
+</footer>
+
+<!--validación de bootstrap c archivo externo js-->
+<script src="js/codigo.js"></script>
+
+
+
+
+</body>
+</html>
